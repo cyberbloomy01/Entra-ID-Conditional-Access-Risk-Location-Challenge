@@ -1,0 +1,1 @@
+# Entra-ID-Conditional-Access-Risk-Location-Challenge
