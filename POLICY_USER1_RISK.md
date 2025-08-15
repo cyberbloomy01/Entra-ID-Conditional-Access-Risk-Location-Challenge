@@ -19,3 +19,9 @@ Access Control
 Grant: Require password change
 Session Controls: None
 
+Notes:
+Why User Risk?: More reliable for detecting compromised accounts based on identity signals.
+Testing: Verified with TestUser1 using simulated risk elevation.
+Expected Behavior: User is prompted to change password upon sign-in when flagged as high risk.
+
+
