@@ -16,10 +16,4 @@ User risk detection configured via Microsoft Identity Protection.
 Admin access to Entra portal for policy creation and testing.
 
 Quick Link to Evidence
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/b861ba83fe96398b3eedbf4816014225da2e54e9/Screenshot%202025-08-15%20073531.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/b74ca3227399c3ddfd4f1d1e3caba9ecfea746b8/Screenshot%202025-08-15%20073617.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/ec20a2d07407db174a154fc066bb14e95dc38940/Screenshot%202025-08-15%20081544.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/dd9ea1050718dec52aaedcd14f1bdc1dd029473e/Screenshot%202025-08-15%20085542.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/5249fdd4e3e25fe8784b06a1e78ac06ed4ae4690/Screenshot%202025-08-15%20103116.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/1d907082f1d765ceeeb533318c1d26349e395b75/Screenshot%202025-08-15%20114919.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/9e0a4336cf48ec4610b68e455adb55cef4c5b316/Screenshot%202025-08-15%20105003.png)
+
