@@ -21,4 +21,4 @@ Quick Link to Evidence
 
 ![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/b74ca3227399c3ddfd4f1d1e3caba9ecfea746b8/Screenshot%202025-08-15%20073617.png)
 ![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/ec20a2d07407db174a154fc066bb14e95dc38940/Screenshot%202025-08-15%20081544.png)
-![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/3c9e6dc8d040fea26b3e4ba60d8ee39a1bcc4345/Screenshot%202025-08-15%20081601.png)
+![image alt](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/dd9ea1050718dec52aaedcd14f1bdc1dd029473e/Screenshot%202025-08-15%20085542.png)
