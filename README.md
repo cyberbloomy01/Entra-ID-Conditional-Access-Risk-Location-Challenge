@@ -16,7 +16,7 @@ User risk detection configured via Microsoft Identity Protection.
 Admin access to Entra portal for policy creation and testing.
 
 Quick Link to Evidence
-![image alt]([image_url](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/main/Screenshot%202025-08-15%20073531.png?raw=true))
+![image alt][image_url](https://github.com/cyberbloomy01/Entra-ID-Conditional-Access-Risk-Location-Challenge/blob/main/Screenshot%202025-08-15%20073531.png?raw=true)
 
 
 
