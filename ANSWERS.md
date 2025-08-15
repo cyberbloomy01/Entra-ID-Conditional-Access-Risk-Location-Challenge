@@ -3,6 +3,7 @@ Action: Created a policy targeting test users.
 Condition: Sign-in risk set to High.
 Control: Required Multi-Factor Authentication (MFA).
 Status: Policy created and enabled.
+<img width="1910" height="910" alt="Screenshot 2025-08-15 073531" src="https://github.com/user-attachments/assets/f5b3c854-1ca9-450b-9a25-1bb46893c8de" />
 
 Task 2: Create a Conditional Access Policy Based on User Risk
 Action: Created a policy targeting test users.
