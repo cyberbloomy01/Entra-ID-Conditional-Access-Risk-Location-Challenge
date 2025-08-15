@@ -1,9 +1,15 @@
-Task 1: Create a Conditional Access Policy Based on Sign-in Risk
-Action: Created a policy targeting test users.
-Condition: Sign-in risk set to High.
-Control: Required Multi-Factor Authentication (MFA).
-Status: Policy created and enabled.
-<img width="1910" height="910" alt="Screenshot 2025-08-15 073531" src="https://github.com/user-attachments/assets/f5b3c854-1ca9-450b-9a25-1bb46893c8de" />
+Task 1:  Create two test users in the tenant. What usernames and license 
+assignments did you choose? Why did you choose those roles/assignments?
+
+Answer:
+
+    I created two users in the tenant :
+        1. Test_user1
+        2. Test_user2
+<img width="1910" height="910" alt="Screenshot 2025-08-15 073531" src="https://github.com/user-attachments/assets/09434f10-f14a-4fb6-9f6c-cd28b1c6edb6" />
+<img width="1906" height="930" alt="Screenshot 2025-08-15 073617" src="https://github.com/user-attachments/assets/0092c23f-b18b-48ee-986d-242fc266f516" />
+
+
 
 Task 2: Create a Conditional Access Policy Based on User Risk
 Action: Created a policy targeting test users.
