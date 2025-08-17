@@ -20,45 +20,34 @@ Answer:
 
    
 
-Task 2: Create a Conditional Access Policy Based on User Risk
-Action: Created a policy targeting test users.
-Condition: User risk set to High.
-Control: Required password change.
-Status: Policy created and enabled.
+Task 2: Design a sign-in risk Conditional Access policy scoped to User1 that enforces 
+a password change for sign-in risks of Medium and High. Exactly which policy 
+settings will you use (policy name, user assignment, risk levels, grant/session 
+controls, and policy state)? Explain your configuration choices and any 
+limitations you considered.
 
-Task 3: Create a Conditional Access Policy Based on Location
-Action: Defined named locations (e.g., Nigeria IP range).
-Condition: Block access from non-trusted locations.
-Control: Block access.
-Status: Policy created and tested.
+Answer:
+       1. Test User 1 Password Change Policy
+       2. Test User 1 Sign-in Risk Policy
 
-Task 4: Combine Risk and Location in a Single Policy
-Action: Created a policy combining user risk and location.
-Condition: High user risk + access from non-trusted location.
-Control: Block access.
-Status: Policy created and verified.
+1. Test User 1 Password Change Policy
+Policy Name: Test User 1 Password Change Policy
+User Assignment: Test User 1
+Risk Level: High, Medium, Low
+Grants:  Multifactor Authentication, Password Change
+Controls: Grant access
+Policy State: On
 
-Task 5: Test Policies with a Test User
-Action: Used a test user with simulated risk.
-Result: Verified that access was blocked or MFA was triggered based on conditions.
-Status: Testing successful.
+<img width="1893" height="905" alt="Screenshot 2025-08-15 110146" src="https://github.com/user-attachments/assets/0b89a913-cea3-4d51-b4cd-af278a9bdfaa" />
+<img width="1913" height="920" alt="Screenshot 2025-08-15 110321" src="https://github.com/user-attachments/assets/25d6fb00-1e27-4bf5-8a79-71a4042e7644" />
 
-Task 6: Monitor Sign-in Logs
-Action: Navigated to Sign-in logs in Entra ID.
-Insight: Verified policy enforcement and risk detection.
-Status: Logs reviewed and documented.
+2. Test User 1 Sign-in Risk Policy
+Policy Name: Test User 1 Skin-in Risk Policy
+User Assignment: Test User 1
+Risk Level: High, Medium
+Grants: Block Access
+Controls:
+Policy State: Report only
 
-Task 7: Review Named Locations
-Action: Created and reviewed trusted IP ranges.
-Purpose: Used in location-based Conditional Access policies.
-Status: Locations configured correctly.
-
-Task 8: Document Policies
-Action: Documented all policies with: (Name, Conditions, controls, target users)
-Status: Documentation Complete
-
-Task 9: Hardening Recommendations & Next Steps
-Monitoring Improvement: Use Sentinel workbooks, alerts, and reviews to track policy effectiveness and reduce false positives.
-Policy Refinement: Refine policies by targeting user groups, excluding service/emergency accounts, and adding device compliance checks.
-Documentation & Training: Provide user guides, document policy rationale, and create help desk runbooks for blocked sign-ins.
-
+<img width="1915" height="891" alt="Screenshot 2025-08-15 112652" src="https://github.com/user-attachments/assets/af1d0156-6280-43b6-afb4-c0a51766b219" />
+<img width="1887" height="902" alt="Screenshot 2025-08-15 112625" src="https://github.com/user-attachments/assets/85cbd75b-24aa-4859-af16-1babd45b771c" />
