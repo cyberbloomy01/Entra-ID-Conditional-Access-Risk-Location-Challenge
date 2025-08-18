@@ -1,4 +1,4 @@
-Task 1:  Create two test users in the tenant. What usernames and license 
+    Task 1:  Create two test users in the tenant. What usernames and license 
 assignments did you choose? Why did you choose those roles/assignments?
 
 Answer:
@@ -73,10 +73,63 @@ Answer:
 experience does the user see? Which logs or Identity Protection entries show 
 the detection and enforcement? Attach screenshots as evidence.
 
+Answer: 
+       I tried logging in to user 1 using "Anomalous IP address" simulation. "Brave browser" was used with VPN enabled from a different location (Rusia)
+The Password change conditional access trigerred a password change and the sign-in risk conditional access policy Flagged as a risky user and access was blocked.
+
+<img width="1584" height="74" alt="Screenshot 2025-08-18 100145" src="https://github.com/user-attachments/assets/5fbd2af8-ae1b-4402-a884-f6dc663d1e2a" />
+<img width="1892" height="811" alt="Screenshot 2025-08-15 105003" src="https://github.com/user-attachments/assets/fc18ce8d-9356-4425-97ee-64c6f489f440" />
+<img width="1173" height="791" alt="Screenshot 2025-08-15 103116" src="https://github.com/user-attachments/assets/3e2b9bf6-d7d3-4c3a-aa75-00fabe32a0e6" />
+
 
 5. Design a location Conditional Access policy scoped to User2 that blocks 
 sign-ins originating from Nigeria. Precisely which conditions and assignments 
 are configured (policy name, user assignment, named location(s), 
 included/excluded locations, grant control, policy state)? Explain your choices.
 
-6. 
+Answers: 
+        Policy name: Location-basesd Policy _Test User2
+        User assignment: Test user2
+        Named location: Nigeria
+        Included/excluded locations: Nigeria block access
+        Grant: Block access
+        Policy state:On
+
+This Conditional Access policy targets Test User2 and blocks sign-ins from Nigeria. It uses a named location to enforce geo-based restrictions, ensuring only sign-ins from approved regions are allowed. The policy is scoped for safe testing and is set to active for immediate validation.
+
+
+6.  How will you test and prove that User2 is blocked from Nigeria? Provide 
+evidence of a blocked sign-in attempt and any relevant logs or admin 
+console entries
+
+Answer: 
+        A Location- based Conditional access policy was configured for Test user2 to block logins from named location - Nigeria. WHen I tried logging in form nigeria via another browser the configured policy was triggered from entra to block access.
+
+<img width="1904" height="821" alt="Screenshot 2025-08-15 085542" src="https://github.com/user-attachments/assets/0721b6a4-b530-477d-b713-4268f3faa5fd" />
+
+        
+7. List any hardening or improvement recommendations you would make after 
+these tests (monitoring, alerts, exceptions, documentation).
+
+Answer:
+       Monitoring Improvement:
+       Create custom workbooks in Microsoft Sentinel to visualize policy effectiveness.
+       Set up alerts for consecutive policy failures or.
+       Implement regular review cycles for false positives.
+
+       Policy Refinements:
+       Expand policies to appropriate user groups rather than individual users
+       Add exclusions for service accounts and emergency access accounts
+       Consider additional controls like device compliance
+
+       Documentations & Training:
+       Create user-facing documentation explaining enforcement experiences
+       Document policy decisions and rationale
+       Develop runbooks for help desk staff to handle blocked sign-in cases
+
+       
+
+       
+
+
+
