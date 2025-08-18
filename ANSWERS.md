@@ -51,3 +51,32 @@ Policy State: Report only
 
 <img width="1915" height="891" alt="Screenshot 2025-08-15 112652" src="https://github.com/user-attachments/assets/af1d0156-6280-43b6-afb4-c0a51766b219" />
 <img width="1887" height="902" alt="Screenshot 2025-08-15 112625" src="https://github.com/user-attachments/assets/85cbd75b-24aa-4859-af16-1babd45b771c" />
+
+Configuration Choices: I created two policies for Test user 1, namely Password change and Sign-in Risk. I choose this configuration method because of the limitation encountered during the configuration.
+
+Limitation: Password change cannot be configured for Sign- in risk policy hence the need to create password change policy for Test User 1 and granted access while the the sign -in risk policy was blocked as shown in the screenshots respectively.
+
+3. How will you simulate a Medium/High sign-in risk for User1 to verify the policy 
+triggers? Describe the simulation method(s) you used and why.
+
+Answer: 
+      1. Used API Graph to compromise, Test User 1 account.
+      2. Logged in with another browser using a VPN ( I used Brave Browser) to trigger anomalous iP address connection
+      3. Password Change was prompted for the Password change policy 
+      4. For sign in risk policy trigger, anomalous IP address was flaged by Entar ID, blocking the sign-in from teh user.
+
+      
+<img width="1892" height="811" alt="Screenshot 2025-08-15 105003" src="https://github.com/user-attachments/assets/5d2a759d-ad04-455f-8b91-3317f0662380" />
+<img width="1173" height="791" alt="Screenshot 2025-08-15 103116" src="https://github.com/user-attachments/assets/2a16e7ba-a5e0-4c6c-9fe3-5714cc78d130" />
+
+4. Capture and describe the enforcement outcome for User1. What visible 
+experience does the user see? Which logs or Identity Protection entries show 
+the detection and enforcement? Attach screenshots as evidence.
+
+
+5. Design a location Conditional Access policy scoped to User2 that blocks 
+sign-ins originating from Nigeria. Precisely which conditions and assignments 
+are configured (policy name, user assignment, named location(s), 
+included/excluded locations, grant control, policy state)? Explain your choices.
+
+6. 
